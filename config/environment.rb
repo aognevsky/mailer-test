@@ -30,11 +30,11 @@ Rails::Initializer.run do |config|
   # config.gem "bj"
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"
   # config.gem "aws-s3", :lib => "aws/s3"
-	config.gem "rspec", :lib => false, :version => '1.1.12' 
-	config.gem "rspec-rails", :lib => false, :version => '1.1.12'
-	config.gem "ctran-annotate", :lib => false, :version => '2.0.0',
+#	config.gem "rspec", :lib => false, :version => '1.1.12' 
+#	config.gem "rspec-rails", :lib => false, :version => '1.1.12'
+#	config.gem "ctran-annotate", :lib => false, :version => '2.0.0',
 								:source => "http://gems.github.com"
-	config.gem "yfactorial-utility_scopes", :lib => false, :version => '0.2.2',
+#	config.gem "yfactorial-utility_scopes", :lib => false, :version => '0.2.2',
 								:source => "http://gems.github.com"
 
 	

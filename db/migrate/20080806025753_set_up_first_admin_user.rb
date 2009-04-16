@@ -4,7 +4,7 @@ class SetUpFirstAdminUser < ActiveRecord::Migration
     user = SiteUser.new
 		user.login = "admin"
 		user.email = APP_CONFIG['settings']['admin_email']
-		user.password = "password"
+		user.password = "admin"
 		user.password_confirmation = "password"
     user.save(false)
 		role = Role.new
